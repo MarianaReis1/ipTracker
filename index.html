@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+   integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+   crossorigin=""/>
+  <title>IP Address Tracker</title>
+</head>
+
+<body>
+  <section class="header">
+    <h1 class="header__title">
+      IP Address Tracker
+    </h1>
+    <div class="header__search-box">
+      <img src="./images/icon-arrow.svg" alt="icon-arrow" class="header__icon">
+      <input id="inputStr" class="header__input" onchange="loadDoc()" value="" type="text" placeholder="Search for any IP address or domain">
+    </div>
+  </section>
+  <section class="content">
+    <div class="content__box">
+      <ul class="content__list">
+        <li class="content__item content__item--no-border">
+          <p class="content__title">IP ADDRESS</p>
+          <p class="content__info" id="ipAdress"></p>
+        </li>
+        <li class="content__item">
+          <p class="content__title">LOCATION</p>
+          <p class="content__info" id="location"></p>
+        </li>
+        <li class="content__item">
+          <p class="content__title">TIMEZONE</p>
+          <p class="content__info" id="timeZone"></p>
+        </li>
+        <li class="content__item">
+          <p class="content__title">ISP</p>
+          <p class="content__info" id="isp"></p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="bg-pattern">
+    <img src="./images/pattern-bg.png" alt="Background Pattern">
+  </section>
+
+  <section id="mapid">
+  </section>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mariana Reis</a>.
+  </div>
+  <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+  <script src="app.js"></script>
+</body>
+</html>
