@@ -1,4 +1,4 @@
-# IP and URL Address Tracker
+# IP Address Tracker
 IpTracker is a beatiful simple Webapp to help you track IP and URLs. 
 The code was concieved with a mobile first approach, taking advantage of ReactJs’s tools to keep it simple and to make best and fastes use of the API.
 
