@@ -1,8 +1,9 @@
 # IP Address Tracker
-IpTracker is a beatiful simple Webapp to help you track IP and URLs. 
-The code was concieved with a mobile first approach, taking advantage of ReactJs’s tools to keep it simple and to make best and fastes use of the API.
+IpTracker is a user-friendly web application that helps you track IPs and URLs. 
+This project was part of a challenge from Frontend Mentor.
+I used Google API to get the IP Address locations and Google Maps JavaScript to generate the map. 
+The UI was conceived with a mobile-first approach, taking advantage of ReactJs' tools to keep all styles and components simple and make the fastest use of the API
 
-This project was based on a challenge from Frontend Mentor, to improve my skills in a real-life workflow.
 
 ## The challenge
 
