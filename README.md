@@ -4,10 +4,8 @@ This project was part of a challenge from Frontend Mentor.
 I used Google API to get the IP Address locations and Google Maps JavaScript to generate the map. 
 The UI was conceived with a mobile-first approach, taking advantage of ReactJs' tools to keep all styles and components simple and make the fastest use of the API
 
+## Welcome! 👋
 
 ## The challenge
+[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
-Your challenge is to build out this IP Address Tracker app and get it looking as close to the design as possible. 
-To get the IP Address locations, you'll be using the [IP Geolocation API by IPify](https://geo.ipify.org/).
-
-[Frontend Mentor](https://www.frontendmentor.io)
