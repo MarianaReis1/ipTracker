@@ -7,5 +7,4 @@ The UI was conceived with a mobile-first approach, taking advantage of ReactJs' 
 ## Welcome! 👋
 
 ## The challenge
-[Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
-
+[Frontend Mentor](https://www.frontendmentor.io) 
