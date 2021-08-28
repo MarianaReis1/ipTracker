@@ -177,9 +177,11 @@ body {
   width: 100vw;
 }
 
-img {
+ 
+.bg-pattern img {
   width: 100%; 
 }
+
 
 #mapid {
   position: absolute;
